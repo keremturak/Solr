@@ -62,3 +62,8 @@ public class Employee {
         return employees;
     }
 ```
+
+![Solr](https://github.com/keremturak/Solr/blob/master/src/main/resources/solr1.png?raw=true)
+
+
+![Solr](https://github.com/keremturak/Solr/blob/master/src/main/resources/solr2.png?raw=true)
