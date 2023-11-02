@@ -7,7 +7,7 @@
 Bu proje, Apache Solr veri depolama ve sorgulama teknolojisini kullanmaktadır. Controller sınıfı içerisinde, veri kaydetme ve belirli bir tarihten sonraki güncellenmiş kayıtları sorgulama işlemlerini gerçekleştiren iki ana metod bulunmaktadır.
 
 
-###Employee sınıfım
+### Employee sınıfım
 
 ```java
 @Data
@@ -26,7 +26,7 @@ public class Employee {
 }
 ```
 
-###Employe Save metodu
+### Employe Save metodu
 ```java
     public Employee save(Employee employee) throws SolrServerException, IOException {
         String urlString = "http://localhost:8983/solr/TASK";
@@ -44,7 +44,7 @@ public class Employee {
     }
 ```
 
-###getByUpdatedTime metodu
+### getByUpdatedTime metodu
 ```java
     public List<Employee> getByUpdatedTime(LocalDate date) throws SolrServerException, IOException {
 
